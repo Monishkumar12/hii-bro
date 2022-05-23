@@ -14,7 +14,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo 'Hello World2'
+                bat 'mvn package'
             }
         }
         
